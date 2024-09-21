@@ -1,11 +1,3 @@
-// Copyright (C) 2023, Ava Labs, Inc. All rights reserved.
-// See the file LICENSE for licensing terms.
-
-package genesis
-
-import "errors"
-
-var (
-	ErrInvalidTarget      = errors.New("invalid target")
-	ErrStateLockupMissing = errors.New("state lockup parameter missing")
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:e52924f50dc499590fe78a4919a689909a3da62ac522c550e74ab801fe78cc6a
+size 271

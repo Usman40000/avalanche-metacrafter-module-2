@@ -1,8 +1,3 @@
-[12-14|15:51:18.348] DEBUG client/client.go:70 dialing server at  {"endpoint": "0.0.0.0:12352"}
-[12-14|15:51:19.353] INFO client/client.go:139 start
-[12-14|15:51:31.042] INFO client/client.go:148 create blockchains
-[12-14|15:53:51.006] INFO client/client.go:181 status
-[12-18|15:21:11.205] DEBUG client/client.go:70 dialing server at  {"endpoint": "0.0.0.0:12352"}
-[12-18|15:21:13.757] INFO client/client.go:139 start
-[12-18|15:21:18.433] INFO client/client.go:148 create blockchains
-[12-18|15:22:57.284] INFO client/client.go:181 status
+version https://git-lfs.github.com/spec/v1
+oid sha256:6605e8ceb475ebe048de08ce6d0ac24e833cce98cced324d33a0ef22a7a45636
+size 538

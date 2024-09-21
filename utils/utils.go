@@ -1,18 +1,3 @@
-// Copyright (C) 2023, Ava Labs, Inc. All rights reserved.
-// See the file LICENSE for licensing terms.
-
-package utils
-
-import (
-	"github.com/ava-labs/hypersdk/crypto"
-
-	"github.com/ava-labs/hypersdk/examples/tokenvm/consts"
-)
-
-func Address(pk crypto.PublicKey) string {
-	return crypto.Address(consts.HRP, pk)
-}
-
-func ParseAddress(s string) (crypto.PublicKey, error) {
-	return crypto.ParseAddress(consts.HRP, s)
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d0bda25ad03be77cfaa1fa0c3de1a235d1952c46f27568fa317275330f72892
+size 414

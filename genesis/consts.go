@@ -1,8 +1,3 @@
-// Copyright (C) 2023, Ava Labs, Inc. All rights reserved.
-// See the file LICENSE for licensing terms.
-
-package genesis
-
-const (
-	StateLockupField = "state_lockup"
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:a169a5270787c3d4bc554497dbbb6cfdde16a77c2b0166f6298ff12f42d0e420
+size 167

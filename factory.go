@@ -1,19 +1,3 @@
-// Copyright (C) 2023, Ava Labs, Inc. All rights reserved.
-// See the file LICENSE for licensing terms.
-
-package vm
-
-import (
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/vms"
-
-	"github.com/ava-labs/hypersdk/examples/tokenvm/controller"
-)
-
-var _ vms.Factory = &Factory{}
-
-type Factory struct{}
-
-func (*Factory) New(logging.Logger) (interface{}, error) {
-	return controller.New(), nil
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:af7facbb2d2926d320c1325901558996488987571fcc0344c1fc165d84b31cfe
+size 424

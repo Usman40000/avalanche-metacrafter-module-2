@@ -1,20 +1,3 @@
-// Copyright (C) 2023, Ava Labs, Inc. All rights reserved.
-// See the file LICENSE for licensing terms.
-
-// "token-cli" implements tokenvm client operation interface.
-package main
-
-import (
-	"os"
-
-	"github.com/ava-labs/hypersdk/examples/tokenvm/cmd/token-cli/cmd"
-	"github.com/ava-labs/hypersdk/utils"
-)
-
-func main() {
-	if err := cmd.Execute(); err != nil {
-		utils.Outf("{{red}}token-cli exited with error:{{/}} %+v\n", err)
-		os.Exit(1)
-	}
-	os.Exit(0)
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b27307ee018b6cab85420a741ada8fb196a80f8bd45664b4fc13ccd1fd303fa
+size 456
